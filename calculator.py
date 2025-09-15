@@ -1,8 +1,6 @@
 # def functions
-
-
-
-
+def add_fun(n1, n2):
+    return n1 + n2
 
 def mult_fun(n1, n2):
     res = n1*n2
