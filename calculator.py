@@ -5,13 +5,21 @@ return a - b
 
 
 
-# main
-n1, operator, n2 = input().split()
 
-try:
-    n1 = float(n1)
-    n2 = float(n2)
+def mult_fun(n1, n2):
+    res = n1*n2
+    return(res)
 
+def main_fun(i):
+    n1, operator, n2 = i.split()
+    
+    try:
+        n1 = float(n1)
+        n2 = float(n2)
+    
+    except ValueError:
+        res = "Enter the numbers!"
+        
     if operator == '+':
         res = add_fun(n1, n2) # Addition
         
@@ -26,8 +34,8 @@ try:
     
     else:
         res = "Invalid arithmetic operator!"
+    
+    print(res)
 
-except ValueError:
-    res = "Enter the numbers!"
-
-print(res)
+input_ = input()
+main_fun(input_)
