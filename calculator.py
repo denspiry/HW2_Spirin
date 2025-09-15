@@ -1,12 +1,11 @@
 # def functions
 
-def subtract(n1, n2):
-       res = n1 - n2
+def subtr_fun(n1, n2):
+    res = n1 - n2
     return(res)
 
-def mult_fun(n1, n2):
-    res = n1*n2
-    return(res)
+def add_fun(n1, n2):
+    return n1 + n2
 
 def main_fun(i):
     n1, operator, n2 = i.split()
