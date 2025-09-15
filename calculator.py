@@ -1,5 +1,7 @@
 # def functions
 
+def subtract(a, b):
+return a - b
 
 
 
