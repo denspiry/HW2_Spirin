@@ -1,10 +1,8 @@
 # def functions
 
-def subtract(a, b):
-return a - b
-
-
-
+def subtract(n1, n2):
+       res = n1 - n2
+    return(res)
 
 def mult_fun(n1, n2):
     res = n1*n2
