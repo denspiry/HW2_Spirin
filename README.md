@@ -5,13 +5,13 @@ The expression must consist of two numbers (`int` or `float`) and a mathematical
 
 There are 5 functions implemented inside the script: `main' (which accepts the input expression) and 4 functions for each type of mathematical operations (addition, subtraction, multiplication and division).
 
-✨✨✨✨✨
-Our team: 
-Danil Spirin 
-Anastasiia Sycheva
-Margarita Lantsova
-Daria Chekanova
-Andrey Nekrasov
+✨✨✨✨✨\\
+Our team: \\
+Danil Spirin \\
+Anastasiia Sycheva \\
+Margarita Lantsova \\
+Daria Chekanova \\
+Andrey Nekrasov \\
 ✨✨✨✨✨
 
 ![Photo of a joint call](./2025_09_15_20439.png)
