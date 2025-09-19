@@ -28,7 +28,7 @@ def main_fun(i):
         res = subtr_fun(n1, n2) # Subtraction
         
     elif operator == '*':
-        res = mult_fun # Multiplication
+        res = mult_fun(n1, n2) # Multiplication
         
     elif operator == '/':
         res = div_fun(n1, n2) # Division - add condition for "Division by zero!"
