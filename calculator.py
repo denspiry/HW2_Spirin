@@ -6,7 +6,7 @@ def mult_fun(n1, n2):
 
 def subtr_fun(n1, n2):
     res = n1 - n2
-    return(res)
+    return res
   
 def add_fun(n1, n2):
     return n1 + n2
