@@ -13,6 +13,12 @@ def add_fun(n1, n2):
 
 def main_fun(i):
     n1, operator, n2 = i.split()
+
+def div_fun(n1, n2):
+    if n1 == 0:
+        print('You cannot divide by Zero')
+    else:
+        return n1 / n2
     
     try:
         n1 = float(n1)
