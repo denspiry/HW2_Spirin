@@ -11,22 +11,20 @@ def subtr_fun(n1, n2):
 def add_fun(n1, n2):
     return n1 + n2
 
+def div_fun(n1, n2):
+    if n2 == 0:
+        res = 'You cannot divide by Zero'
+    else:
+        res = n1 / n2
+    return res
+
+
 def main_fun(i):
     n1, operator, n2 = i.split()
 
-def div_fun(n1, n2):
-    if n2 == 0:
-        print('You cannot divide by Zero')
-    else:
-        return n1 / n2
-    
-    try:
-        n1 = float(n1)
-        n2 = float(n2)
-    
-    except ValueError:
-        res = "Enter the numbers!"
-        
+    n1 = float(n1)
+    n2 = float(n2)
+
     if operator == '+':
         res = add_fun(n1, n2) # Addition
         
@@ -38,9 +36,6 @@ def div_fun(n1, n2):
         
     elif operator == '/':
         res = div_fun(n1, n2) # Division - add condition for "Division by zero!"
-    
-    else:
-        res = "Invalid arithmetic operator!"
     
     print(res)
 
